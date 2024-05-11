@@ -1,8 +1,30 @@
 .fuente_helvetica{
-    font-family: 'Proxima Nova', 'Helvetica Neue', sans;
+    font-family: 'Proxima Nova', 'Helvetica Neue',sans ;
     font-size: 30px;
     margin: auto;
+    font-style: italic;
 }
 body{
     background-color: rgb(221, 212, 221)
+}
+.color-fondo{
+    background-color: rgb(102, 75, 146);
+    color: black;
+}
+.navbar-brand img {
+    height: 25px; /* Establecer la altura deseada */
+    width: auto; /* Mantener la proporción original */
+    margin: auto 5px; /* Añadir un margen entre los iconos */
+    display: inline-block; /* Alinea los iconos horizontalmente */
+}
+.espacio_derecha{  /*este es el espacio del boton de comprar */
+    margin-right: 30px;
+}
+.giffondo{ 
+    background-image: url(../img/giphy3.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
