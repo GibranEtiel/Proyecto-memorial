@@ -1,0 +1,8 @@
+.fuente_helvetica{
+    font-family: 'Proxima Nova', 'Helvetica Neue', sans;
+    font-size: 30px;
+    margin: auto;
+}
+body{
+    background-color: rgb(221, 212, 221)
+}
