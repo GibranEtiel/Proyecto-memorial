@@ -1,0 +1,98 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .profile h2 {
+            margin-top: 10px;
+            color: #333;
+        }
+        .profile p {
+            margin-top: 5px;
+            color: #666;
+            font-size: 1em;
+        }
+        .buttons {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .section {
+            display: none;
+            margin-bottom: 20px;
+        }
+        .description p {
+            font-size: 1.1em;
+            color: #666;
+            text-align: justify;
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .photos img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .videos iframe {
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 560px;
+            margin: auto;
+        }
+        .carousel-item img {
+            width: 100%;
+            max-width: 500px;
+            margin: auto;
+        }
+        hr{
+            color:#da4c29;
+        }
+         /* Estilos para imágenes en vista de PC */
+         @media (min-width: 768px) {
+            .section img {
+                max-width: 50%; /* Ajusta el tamaño según tus necesidades */
+                height: auto;
+            }
+        }

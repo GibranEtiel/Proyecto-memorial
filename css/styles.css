@@ -1,11 +1,11 @@
 .fuente_helvetica{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     margin: auto;
     color: rgb(235, 153, 32);
 }
 body{
-    background-color: rgb(221, 218, 212)
+    background-color: rgb(252, 252, 252)
 }
 .color-fondo{
     background-color:   rgb(235, 153, 32);
@@ -22,7 +22,7 @@ body{
     margin-right: 30px;
 }
 .fuente_lucida{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .texto{
@@ -35,4 +35,19 @@ img {
     margin: auto; /* Centra la imagen horizontalmente */
 }
 
+.custom-button {
+    background-color: rgb(235, 153, 32); /* Color de fondo naranja */
+    color: white; /* Color del texto blanco */
+    border: none; /* Quita el borde */
+    padding: 10px 20px; /* Añade padding para un mejor aspecto */
+    border-radius: 5px; /* Bordes redondeados */
+}
 
+.custom-button:hover {
+    background-color:rgb(235, 153, 32); /* Color del botón al pasar el mouse */
+    color: white;
+}
+
+hr{
+    color: rgb(0, 0, 0);;
+}
